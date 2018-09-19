@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".GirlActivity">
+
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/irinn"
+            />
+        <ImageView
+            android:layout_weight="3"
+            android:src="@drawable/joou"/>
+        <ImageView
+            android:layout_weight="3"
+            android:src="@drawable/kangmin"/>
+        <ImageView
+            android:layout_weight="3"
+            android:src="@drawable/momozzamg"/>
+    </TableLayout>
+
+    <Button
+        android:text="시작"
+        android:id="@+id/start"
+        android:layout_width="80dp"
+        android:layout_height="600dp"
+
+        />
+
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/chunghaz"/>
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/sulhyun"/>
+    <ImageView
+        android:src="@drawable/son"
+        android:layout_weight="1"/>
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/boboyou"
+            />
+
+    </TableLayout>
+
+</LinearLayout>
